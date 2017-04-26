@@ -368,8 +368,9 @@ body {
   display: table-cell;
 }
 #fh5co-hero .fh5co-intro > div .fh5co-left-position {
-  width: 65%;
+  width: 100%;
   float: left;
+  text-align: center;
 }
 @media screen and (max-width: 992px) {
   #fh5co-hero .fh5co-intro > div .fh5co-left-position {
@@ -403,6 +404,7 @@ body {
   line-height: 87px;
   font-weight: 100;
   color: white;
+  text-align: center;
 }
 @media screen and (max-width: 992px) {
   #fh5co-hero .fh5co-intro > div h2 {
