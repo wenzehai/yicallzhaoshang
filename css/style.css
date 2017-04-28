@@ -25,13 +25,13 @@ body.fh5co-overflow {
 }
 
 a {
-  color: #8dc63f;
+  color: #FF7844;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #8dc63f;
+  color: #FF7844;
   outline: none;
   text-decoration: none;
 }
@@ -88,21 +88,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-primary {
-  background: #8dc63f;
+  background: #FF7844;
   color: #fff;
-  border: 2px solid #8dc63f;
+  border: 2px solid #FF7844;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #99cc53 !important;
-  border-color: #99cc53 !important;
+  background: #ff8a5e !important;
+  border-color: #ff8a5e !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #8dc63f;
-  border: 2px solid #8dc63f;
+  color: #FF7844;
+  border: 2px solid #FF7844;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #8dc63f;
+  background: #ff8a5e;
   color: #fff;
 }
 .copyrights{
@@ -371,10 +371,12 @@ body {
   width: 100%;
   float: left;
   text-align: center;
+  line-height: 24px;
 }
 @media screen and (max-width: 992px) {
   #fh5co-hero .fh5co-intro > div .fh5co-left-position {
     width: 100%;
+    line-height: 24px;
   }
 }
 #fh5co-hero .fh5co-intro > div .fh5co-center-position {
@@ -467,7 +469,7 @@ body {
   width: 50px;
   height: 50px;
   margin: 0 auto;
-  background: #8dc63f;
+  background: #FF7844;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -539,7 +541,9 @@ body {
     padding: 3em 0;
   }
 }
+#fh5co-features{
 
+}
 #fh5co-projects {
   background: #f9f9f9;
 }
@@ -669,7 +673,7 @@ body {
   height: 112px;
   display: table;
   margin: 0 auto 30px auto;
-  background: #e6f2d4;
+  background: #fff9f7;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -681,7 +685,7 @@ body {
   display: table-cell;
   vertical-align: middle;
   font-size: 50px;
-  color: #8dc63f;
+  color: #FF7844;
 }
 #fh5co-features .fh5co-feature h3 {
   font-size: 20px;
