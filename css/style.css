@@ -349,7 +349,7 @@ body {
   right: 0;
   bottom: 0;
   background: #2a2d36;
-  opacity: .54;
+  opacity: 0.1;
   z-index: 9;
 }
 #fh5co-hero .fh5co-intro {
@@ -1250,6 +1250,10 @@ body {
   -ms-border-radius: 5px;
   border-radius: 5px;
 }
+#fh5co-pricing .price-box img {
+    width: 200px;
+
+}
 #fh5co-pricing .price-box.popular {
   border: 2px solid #8dc63f;
 }
@@ -1308,6 +1312,87 @@ body {
   text-align: center;
 }
 
+/**/
+
+#fh5co-workcode {
+    background: #fff;
+}
+#fh5co-workcode .price-box {
+    background: #fff;
+    border: 2px solid #ECEEF0;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 40px;
+    position: relative;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+}
+#fh5co-workcode .price-box img {
+    width: 200px;
+
+}
+#fh5co-workcode .price-box.popular {
+    border: 2px solid #8dc63f;
+}
+#fh5co-workcode .price-box.popular .popular-text {
+    top: 0;
+    left: 50%;
+    margin-left: -54px;
+    margin-top: -2em;
+    position: absolute;
+    padding: 4px 20px;
+    background: #8dc63f;
+    color: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+}
+#fh5co-workcode .price-box.popular .popular-text:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -10px;
+    border-top: 10px solid black;
+    border-top-color: #8dc63f;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+#fh5co-workcode .pricing-plan {
+    margin: 0 0 30px 0;
+    padding: 0;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#fh5co-workcode .price {
+    font-size: 50px;
+    color: #000;
+}
+#fh5co-workcode .price .currency {
+    font-size: 20px;
+    top: -1.2em;
+}
+#fh5co-workcode .price small {
+    font-size: 16px;
+}
+#fh5co-workcode .pricing-info {
+    padding: 0;
+    margin: 0 0 30px 0;
+}
+#fh5co-workcode .pricing-info li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+/**/
+
 #fh5co-faqs .fh5co-faq-list {
   margin: 0;
   padding: 0;
@@ -1318,6 +1403,7 @@ body {
   line-height: 24px;
   list-style: none;
 }
+
 @media screen and (max-width: 768px) {
   #fh5co-faqs .fh5co-faq-list li {
     margin: 0 0 20px 0;
@@ -1734,7 +1820,7 @@ body {
 .code {
     width: 200px;
     height: 600px;
-    background: #fff;
+    background: rgba(240,240,240,0.8);
     text-align: center;
     position: fixed;
     top: 50%;
@@ -1806,4 +1892,6 @@ body {
         display: none;
     }
 }
-/*# sourceMappingURL=style.css.map */
+.clearfix {
+    clear: both;
+}
